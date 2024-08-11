@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <title>Prueba de Bootstrap 4</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-3">
+    <!-- Botón de hamburguesa -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#columnaMenu" aria-controls="columnaMenu" aria-expanded="false" aria-label="Toggle navigation">
+      &#9776; <!-- Símbolo de las tres rayas -->
+    </button>
+
+    <!-- Contenido que se colapsa -->
+    <div class="collapse" id="columnaMenu">
+      <div class="row" style="background-color:#aaa; padding: 10px;">
+        <div class="col">
+          <button class="btn btn-block" style="background-color:#aaa; color:white;" onclick="alert('Columna 1 clickeada!')">
+            <h1>Columna 1</h1>
+          </button>
+        </div>
+      </div>
+      <div class="row" style="background-color:#bbb; padding: 10px;">
+        <div class="col">
+          <button class="btn btn-block" style="background-color:#bbb; color:white;" onclick="alert('Columna 2 clickeada!')">
+            <h1>Columna 2</h1>
+          </button>
+        </div>
+      </div>
+      <div class="row" style="background-color:#ccc; padding: 10px;">
+        <div class="col">
+          <button class="btn btn-block" style="background-color:#ccc; color:white;" onclick="alert('Columna 3 clickeada!')">
+            <h1>Columna 3</h1>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <!-- Scripts de Bootstrap y jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
